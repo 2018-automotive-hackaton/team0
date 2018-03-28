@@ -11,3 +11,27 @@ Team and emails:
 * HYPERLINK vmihaylov@protonmail.ch
 * HYPERLINK kristianchok@gmail.com
 * HYPERLINK nikistoimenow@gmail.com 
+
+# How to run
+
+### Recorded data replay
+```bash
+cd /opt/demo
+python replay.py <scenario>
+# <scenario> - scenario1, scenario2, scenario3, scenario4
+```
+
+### Simulated video output 
+```bash
+/dev/video1 # (or device1 in OpenCV)
+```
+
+### Simulated OBDII serial device
+```bash
+/dev/ttySim
+```
+
+### Recorded data vizualization
+```bash
+python /opt/demo/test.py
+```
